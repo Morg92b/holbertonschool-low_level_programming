@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - print positive or negative or zero
  * Return:0
@@ -15,8 +16,8 @@ int main(void)
 	if (n < 0)
 		printf("%d is negative", n);
 	if (n > 0)
-	 	printf("%d is positive", n);
-	if (n = 0)
+		printf("%d is positive", n);
+	if (n == 0)
 		printf("%d is zero", n);
 	return (0);
 }
