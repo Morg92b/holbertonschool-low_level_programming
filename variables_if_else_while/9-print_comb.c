@@ -13,12 +13,12 @@ int main(void)
 
 	{
 		if (n < ':')
-
-			putchar(n++);
-			putchar(',');
-			putchar(' ');
+		{
+				putchar(n++);
+				putchar(',');
+				putchar(' ');
+		}
 	}
-
 	putchar('\n');
 
 	return (0);
