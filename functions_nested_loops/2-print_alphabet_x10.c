@@ -5,14 +5,20 @@
  * Return:void
  */
 
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
-        char c = 'a';
+	int l = 0;
 
-        while (c <= 'z')
+	while (l <= 10)
 
-        _putchar(c++);
+	{
+		char c = 'a';
 
-        _putchar('\n');
+		while (c <= 'z')
 
+		_putchar(c++);
+
+		_putchar('\n');
+		(l++);
+	}
 }
