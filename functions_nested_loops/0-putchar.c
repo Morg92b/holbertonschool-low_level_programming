@@ -2,7 +2,8 @@
 #include "main.h"
 
 
-/** main - i print _putchar with files main.h i created the commands
+/**
+ * main - i print _putchar with files main.h i created the commands
  * Return:0
  */
 
