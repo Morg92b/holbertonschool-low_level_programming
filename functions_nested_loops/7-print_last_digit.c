@@ -2,8 +2,8 @@
 
 /**
  * print_last_digit - function that prints the last digit of a number
- * @r: last digit 
- * @a: this is a resultat of operation 
+ * @r: last digit
+ * Return:a this is a resultat of operation
  */
 
 int print_last_digit(int r)
