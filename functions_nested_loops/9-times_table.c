@@ -2,6 +2,7 @@
 
 /**
  * times_table - prints the 9 times table
+ * 
 */
 
 void times_table(void)
@@ -21,8 +22,10 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				/*if (neuf <= 9)
-				_putchar(' ');*/
+			}
+			if ((multiple * neuf) / 10 <= 0)
+			{
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
