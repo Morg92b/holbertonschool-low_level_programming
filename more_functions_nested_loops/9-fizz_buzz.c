@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	printf("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz ")
+	printf("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz ");
 	printf("13 14 FizzBuzz 16 17 Fizz ");
 	printf("19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz");
 	printf("31 32 Fizz 34 Buz");
