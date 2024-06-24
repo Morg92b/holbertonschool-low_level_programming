@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main- printf for the text
+ *Return:0
+ */
 
 int main(void)
 {
