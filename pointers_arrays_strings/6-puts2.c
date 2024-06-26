@@ -14,7 +14,7 @@ void puts2(char *str)
 	{
 		line++;
 	}
-	while (index < line && str[index] != '\0')   /*  utilise boucle for */
+	while (index < line && str[index] != '\0') 
 	{
 		_putchar(str[index]);
 		index += 2;
