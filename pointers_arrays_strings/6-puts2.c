@@ -8,8 +8,13 @@
 void puts2(char *str)
 {
 	int index = 0;
+	int line = 0;
 
-	while (str[index] != '\0')
+	while (str[line] != '\0')
+	{
+		line++;
+	}
+	while (index < line && str[index] != '\0')   /*  utilise boucle for */
 	{
 		_putchar(str[index]);
 		index += 2;
