@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 		printf("0\n");
 			return (1);
 	}
-	for (index_1 = 1; i < argc; i++)
+	for (index_1 = 1; index_1 < argc; index_1++)
 	{
 		for (index_2 = 0; argv[index_1][index_2] != '\0'; index_2++)
 
