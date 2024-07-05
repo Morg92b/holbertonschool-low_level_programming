@@ -8,7 +8,7 @@
  *Return: 1 if result 0 or error and return 0 if result is > 0
  */
 
-int main(int argc, ²char **argv)
+int main(int argc, char **argv)
 {
 	int index_1;
 	int index_2;
@@ -30,9 +30,6 @@ int main(int argc, ²char **argv)
 			}
 		result += atoi(argv[i]);
 	}
-	printf("%d\n", result)
+	printf("%d\n", result);
 	return (0);
 }
-
-
-
