@@ -10,26 +10,23 @@
 
 int main(int argc, char **argv)
 {
-	int index_1;
-	int index_2;
+	int n;
+	int number;
 	int result = 0;
 
-	if (argc == 1)
+	for (n = 1; n < argc; n++)
 	{
-		printf("0\n");
-			return (1);
-	}
-	for (index_1 = 1; index_1 < argc; index_1++)
-	{
-		for (index_2 = 0; argv[index_1][index_2] != '\0'; index_2++)
-
-			if (argv[index_1][index_2] < '0' || argv[index_1][index_2] > '9')
+		for (number = 0; argv[n][number]; number++)
+		{
+			if (argv[n][number] < '0' || argv[n][number] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
-		result += atoi(argv[index_1]);
+		}
 	}
-	printf("%d\n", result);
+	result += atoi(argv[n]);
+
+	printf ("%d\n", result);
 	return (0);
 }
