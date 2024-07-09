@@ -2,7 +2,7 @@
 
 /**
  *malloc_checked - allocates memory using malloc
- *@b: it is the size of memory 
+ *@b: it is the size of memory
  *Return: ptr or exit(98)
  */
 
