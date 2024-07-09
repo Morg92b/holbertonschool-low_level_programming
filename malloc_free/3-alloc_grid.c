@@ -29,6 +29,8 @@ int **alloc_grid(int width, int height)
 
 		if (grid[index_h] == NULL)
 		{
+			while (index_h > 0)
+			free(grid[--index_h]);
 			free(grid);
 			return (NULL);
 		}
