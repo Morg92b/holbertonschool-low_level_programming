@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (length_2 = 0; s2[length_2]; length_2++)
 		;
 	if (n > length_2)
-		n = length_2
+		n = length_2;
 
 	length_total = length_1 + n;
 
@@ -45,6 +45,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	return (result);
 }
-}
-
-
