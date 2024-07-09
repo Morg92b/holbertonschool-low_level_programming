@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *string_nconcat - 
- *@s: first string
+ *string_nconcat - function that concatenates two strings
+ *@s1: first string
  *@s2: second string
  *@n: it is the maximum number of bytes of s2 to concatenate
  *Return: result or if fails NULL
