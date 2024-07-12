@@ -4,7 +4,7 @@
 
 /**
  *free_dog -  function that frees dogs
- *@d:
+ *@d: it is the dogs
  */
 
 void free_dog(dog_t *d)
